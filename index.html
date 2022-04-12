@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="login.js"></script>
+    <title>Maths Quiz: Login</title>
+</head>
+<body class="bg-indigo-700 font-mono">
+    <div class="text-center bg-indigo-400 drop-shadow-xl p-8 w-[40rem] mx-auto justify-center my-auto align-middle">
+        <div class="flex flex-row">
+            <label for="idInput" class="text-gray-100">Enter Your Name</label>
+            <input type="text" name="idInput" id="userInput" placeholder="Enter Your Name here" class="focus:border-4 border-green-700">
+        </div>
+        <div class="flex flex-row">
+            <button class="bg-purple-700 text-white hover:text-gray-200 hover:bg-purple-900 text-center mx-auto rounded-lg p-3 hover:scale-105 my-3" id="login-btn" onclick="login();">Login</button>
+        </div>
+        <div class="flex flex-row text-red-100" id="errorMsg">
+            
+        </div>
+    </div>
+</body>
+</html>
