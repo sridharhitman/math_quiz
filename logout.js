@@ -1,3 +1,5 @@
+userName1 = localStorage.getItem("userName1");
+userName2 = localStorage.getItem("userName2");
 document.getElementById("playerName1").innerHTML = "Player 1 :" + userName1;
 document.getElementById("playerName2").innerHTML = "Player 2 :" + userName2;
 function logout(){
